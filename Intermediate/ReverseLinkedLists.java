@@ -23,6 +23,18 @@ public class ReverseLinkedLists {
         return head;
     }
 
+    void reversePrintUsingRecursion(ListNode head){
+        //Terminating conditions
+        if(head.next == null){
+            return;
+        }
+
+        reversePrintUsingRecursion(head.next);
+
+        //Actual Printing the value
+        System.out.print(head.val);
+    }
+
     public static void main(String[] args) {
         // Creating a linked list
         ListNode head = new ListNode(1);
