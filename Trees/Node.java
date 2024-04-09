@@ -41,8 +41,7 @@ public class Node {
             if (root != null) {
                 inorderRec(root.left);
                 System.out.print(root.data + " ");
-                inorderRec(root.right);
-            }
+                inorderRec(root.right);            }
         }
 
         //Level Order Traversal(BFS)
