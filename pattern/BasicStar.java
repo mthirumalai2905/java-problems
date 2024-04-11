@@ -8,6 +8,7 @@ public class BasicStar {
             }
             System.out.println();
          }
+         
     }
    
 }
