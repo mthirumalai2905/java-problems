@@ -21,6 +21,7 @@ public class Swap {
         System.out.println("After sorting:-  ");
         System.out.print("a is:- "+ a + "\t");
         System.out.print("b is:-" + b);
+    
     }
     
 }
